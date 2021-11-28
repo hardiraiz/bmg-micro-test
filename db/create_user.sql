@@ -1,0 +1,3 @@
+CREATE DATABASE micro_db;
+CREATE USER micro_user WITH ENCRYPTED PASSWORD 'micro_pass';
+GRANT ALL PRIVILEGES ON DATABASE micro_db TO micro_user;
